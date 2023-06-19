@@ -1,13 +1,64 @@
 #home {
-  height: 920px;
-  border: 1px solid;
-  /* position: fixed; */
-  /* width: 100%; */
+  height: 970px;
+  border: 0 solid;
 }
 
-#wave {
-  margin-top: 500px;
-  float: inline-end;
+@media screen and (max-width: 768px) {
+  #home {
+    background-size: contain;
+    height: 293px;
+  }
+}
+
+#historia {
+  height: 970px;
+  border: 0 solid;
+  background-image: url('principal.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  #historia {
+    background-size: contain;
+    height: 293px;
+  }
+}
+
+#recordes {
+  height: 970px;
+  border: 0 solid;
+  background-image: url('players.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  #recordes {
+    background-size: contain;
+    height: 293px;
+  }
+}
+
+#penta {
+  height: 970px;
+  border: 0 solid;
+  background-image: url('penta.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+  #penta {
+    background-size: cover;
+    height: 293px;
+  }
 }
 
 #logo {
@@ -41,7 +92,7 @@ body {
 }
 
 * {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   box-sizing: border-box;
 }
 
@@ -51,9 +102,14 @@ body {
   align-items: center;
   justify-content: space-between;
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 203, 169, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 203, 169, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #FFF;
+  color: #fff;
   height: 50px;
   width: 100%;
   padding: 1em;
@@ -68,7 +124,7 @@ body {
   padding: 0;
 }
 
-.menu>li {
+.menu > li {
   margin: 0 1rem;
   overflow: hidden;
 }
@@ -109,16 +165,16 @@ body {
   margin-top: 8px;
 }
 
-#menu-toggle:checked+.menu-button-container .menu-button::before {
+#menu-toggle:checked + .menu-button-container .menu-button::before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
 
-#menu-toggle:checked+.menu-button-container .menu-button {
+#menu-toggle:checked + .menu-button-container .menu-button {
   background: rgba(255, 255, 255, 0);
 }
 
-#menu-toggle:checked+.menu-button-container .menu-button::after {
+#menu-toggle:checked + .menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
@@ -139,7 +195,7 @@ body {
     align-items: center;
   }
 
-  #menu-toggle~.menu li {
+  #menu-toggle ~ .menu li {
     height: 0;
     margin: 0;
     padding: 0;
@@ -147,14 +203,14 @@ body {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
-  #menu-toggle:checked~.menu li {
+  #menu-toggle:checked ~ .menu li {
     border: 1px solid #333;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
-  .menu>li {
+  .menu > li {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -164,9 +220,36 @@ body {
     background-color: #222;
   }
 
-  .menu>li:not(:last-child) {
+  .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
 }
 
 /* Menu Final */
+
+/* video */
+#video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+#video video {
+  position: relative;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+}
+/* Final Video */
+
+/* Div para fixar menu no topo */
+#div-menu {
+  position: fixed;
+  width: 100%;
+  background-color: #f1f1f1;
+  /* padding: 10px; */
+  z-index: 9999;
+}
+/* Final div */
