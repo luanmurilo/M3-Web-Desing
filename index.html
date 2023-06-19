@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="copa-do-mundo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="copa-do-mundo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>World Cups</title>
-</head>
+  </head>
 
-<!-- Cabeçalho e links -->
+  <!-- Cabeçalho e links -->
 
-<body>
-    <!-- Menu -->
-    <section class="top-nav" id="menu">
+  <body>
+    <div id="div-menu">
+      <!-- Menu -->
+      <section class="top-nav" id="menu">
         <div>
-            <img src="copa-do-mundo.png" alt="" id="logo">
+          <img src="copa-do-mundo.png" alt="" id="logo" />
         </div>
         <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'></div>
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
         </label>
         <ul class="menu">
-            <li><a>Home</a></li>
-            <li><a>História</a></li>
-            <li><a>Recordes</a></li>
-            <li><a>Galeria de Fotos</a></li>
-            <li><a>Curiosidades</a></li>
+          <li><a link="#home">Home</a></li>
+          <li><a link="historia">História</a></li>
+          <li><a link="recordes">Recordes</a></li>
+          <li><a link="galeria">Galeria de Fotos</a></li>
+          <li><a link="curiosidades">Curiosidades</a></li>
         </ul>
-    </section>
+      </section>
+    </div>
 
     <!--Home-->
     <div id="home">
-        
+      <video autoplay loop muted id="video">
+        <source src="video.mp4" type="video/mp4" />
+        Desculpe, seu navegador não suporta vídeos HTML5.
+      </video>
     </div>
 
     <!-- História -->
-    <div id="História">
-    </div>
+    <div id="historia"></div>
+
+    <!-- Penta -->
+    <div id="penta"></div>
 
     <!-- Recordes -->
-    <div>
-    </div>
+    <div id="recordes"></div>
 
     <!-- Galeria de imagens -->
-    <div id="galeria">
-    </div>
+    <div id="galeria"></div>
 
     <!-- Curiosidades -->
-    <div id="Curiosidades">
-    </div>
+    <div id="Curiosidades"></div>
 
     <!-- Rodapé -->
     <footer>
@@ -65,8 +71,7 @@
             <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
                     <path fill="#00cba9" fill-opacity="1" d="M0,64L60,80C120,96,240,128,360,160C480,192,600,224,720,213.3C840,203,960,149,1080,122.7C1200,96,1320,96,1380,96L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
                 </svg>             -->
-        </div>
+        </div></div>
     </footer>
-</body>
-
+  </body>
 </html>
