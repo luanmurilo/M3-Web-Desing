@@ -1,7 +1,7 @@
-#home {
+/* #home {
   height: 970px;
   border: 0 solid;
-}
+} */
 
 @media screen and (max-width: 768px) {
   #home {
@@ -11,35 +11,42 @@
 }
 
 #historia {
-  height: 970px;
+  height: 100%;
   border: 0 solid;
   background-image: url('principal.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  text-align: center;
+  color: #faf200;
 }
 
 @media screen and (max-width: 768px) {
   #historia {
-    background-size: contain;
+    /* background-size: contain; */
     height: 293px;
   }
 }
 
 #recordes {
-  height: 970px;
+  height: 100%;
   border: 0 solid;
   background-image: url('players.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   #recordes {
     background-size: contain;
-    height: 293px;
+    height: 350px;
   }
+}
+
+#curiosidades {
+  text-align: center;
 }
 
 #penta {
@@ -52,6 +59,8 @@
   z-index: -1;
   position: relative;
   background-attachment: fixed;
+  text-align: center;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
@@ -92,7 +101,8 @@ body {
 }
 
 * {
-  font-family: 'Raleway';
+  /* font-family: 'Raleway'; */
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
 
@@ -104,9 +114,9 @@ body {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(0, 203, 169, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
+    #020024 0%,
+    #00cba9 35%,
+    #00d4ff 100%
   );
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
@@ -253,3 +263,14 @@ body {
   z-index: 9999;
 }
 /* Final div */
+
+span {
+  margin: 0%;
+  font-size: large;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+li {
+  text-align: left;
+}
