@@ -1,77 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="copa-do-mundo.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <title>World Cups</title>
-  </head>
 
-  <!-- Cabeçalho e links -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="copa-do-mundo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>World Cups</title>
+</head>
 
-  <body>
-    <div id="div-menu">
-      <!-- Menu -->
-      <section class="top-nav" id="menu">
-        <div>
-          <img src="copa-do-mundo.png" alt="" id="logo" />
-        </div>
-        <input id="menu-toggle" type="checkbox" />
-        <label class="menu-button-container" for="menu-toggle">
-          <div class="menu-button"></div>
-        </label>
-        <ul class="menu">
-          <li><a link="#home">Home</a></li>
-          <li><a link="historia">História</a></li>
-          <li><a link="recordes">Recordes</a></li>
-          <li><a link="galeria">Galeria de Fotos</a></li>
-          <li><a link="curiosidades">Curiosidades</a></li>
-        </ul>
-      </section>
-    </div>
+<!-- Cabeçalho e links -->
 
-    <!--Home-->
-    <div id="home">
-      <video autoplay loop muted id="video">
-        <source src="video.mp4" type="video/mp4" />
-        Desculpe, seu navegador não suporta vídeos HTML5.
-      </video>
-    </div>
+<body>
+  <div id="div-menu">
+    <!-- Menu -->
+    <section class="top-nav" id="menu">
+      <div>
+        <img src="copa-do-mundo.png" alt="" id="logo" />
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li><a link="#home">Home</a></li>
+        <li><a link="historia">História</a></li>
+        <li><a link="recordes">Recordes</a></li>
+        <li><a link="galeria">Galeria de Fotos</a></li>
+        <li><a link="curiosidades">Curiosidades</a></li>
+      </ul>
+    </section>
+  </div>
 
-    <!-- História -->
-    <div id="historia"></div>
+  <!--Home-->
+  <div id="home">
+    <video autoplay loop muted id="video">
+      <source src="video.mp4" type="video/mp4" />
+      Desculpe, seu navegador não suporta vídeos HTML5.
+    </video>
+  </div>
 
-    <!-- Penta -->
-    <div id="penta"></div>
+  <!-- História -->
+  <div id="historia">
+    <h1>História</h1><br>
+    <span>A história da Copa do Mundo de futebol começa em 1928 quando o francês Jules Rimet assume o comando da
+      Federação Internacional de Futebol (FIFA) e começa a organizar a primeira competição de futebol mundial.
 
-    <!-- Recordes -->
-    <div id="recordes"></div>
+      A estreia do evento aconteceu em 1930 no Uruguai e contou com a participação de 13 seleções convidadas.
 
-    <!-- Galeria de imagens -->
-    <div id="galeria"></div>
+      De 1930 a 1970, o evento ficou conhecido como Taça Jules Rimet, em homenagem ao idealizador do campeonato.
+    </span>
+  </div>
 
-    <!-- Curiosidades -->
-    <div id="Curiosidades"></div>
+  <!-- Penta -->
+  <div id="penta">
+    <h1>O Penta</h1><br>
+    <span>Há exatos 20 anos, em Yokohama, no Japão, a seleção brasileira conquistou sua quinta taça da Copa do Mundo da
+      Fifa. Disputando sua terceira final seguida, o Brasil tornou-se a única seleção pentacampeã do mundo, vencendo a
+      Alemanha por 2 a 0 com dois gols históricos do artilheiro do torneio, Ronaldo Fenômeno.
 
-    <!-- Rodapé -->
-    <footer>
-        <div id="footer-div">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
-                <path fill="#00cba9" fill-opacity="1"
-                    d="M0,256L120,261.3C240,267,480,277,720,266.7C960,256,1200,224,1320,208L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-                </path>
-            </svg>
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
+      Comandada por Luiz Felipe Scolari, o Felipão, o time se classificou para o Mundial do Japão e da Coreia do Sul
+      após uma campanha abaixo da expectativa nas eliminatórias sul-americanas, ficando apenas em terceiro lugar.
+    </span>
+  </div>
+
+  <!-- Recordes -->
+  <div id="recordes">
+    <h1>Recordes Marcantes</h1><br>
+    <span>
+      <ul>
+        <li>Seleção com mais títulos: 5 (1958, 1962, 1970, 1994 e 2002)</li>
+        <li>Mais participações: 22 (já incluindo a Copa do Catar)</li>
+        <li>Mais vitórias: 73</li>
+        <li>Jogador com mais títulos: Pelé, com 3 (1958, 1962 e 1970)</li>
+        <li>Jogador mais novo a marcar: Pelé, aos 17 anos e 239 dias (1958)</li>
+        <li>Jogador mais novo a marcar um hat-trick: Pelé, aos 17 anos e 244 dias (1958)</li>
+        <li>Mais títulos como jogador e técnico: Zagallo, com 3 (1958 e 1962 como jogador; 1970 como técnico)</li>
+      </ul>
+    </span>
+  </div>
+
+  <!-- Galeria de imagens -->
+  <div id="galeria">
+
+  </div>
+
+  <!-- Curiosidades -->
+  <div id="curiosidades">
+    <h1>Curiosidades</h1><br>
+    <span>
+      <ul>
+        <li>A primeira Copa do Mundo aconteceu em 1930</li>
+        <li>A primeira transmissão na TV em cores aconteceu em 1970</li>
+        <li> Em 2022, a maioria dos brasileiros acredita que o país será campeão</li>
+      </ul>
+    </span>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <div id="footer-div">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
+        <path fill="#00cba9" fill-opacity="1"
+          d="M0,256L120,261.3C240,267,480,277,720,266.7C960,256,1200,224,1320,208L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+        </path>
+      </svg>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
                     <path fill="#00cba9" fill-opacity="1" d="M0,64L60,80C120,96,240,128,360,160C480,192,600,224,720,213.3C840,203,960,149,1080,122.7C1200,96,1320,96,1380,96L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
                 </svg>             -->
-        </div></div>
-    </footer>
-  </body>
+    </div>
+    </div>
+  </footer>
+</body>
+
 </html>
