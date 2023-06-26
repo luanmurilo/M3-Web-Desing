@@ -51,7 +51,7 @@ a {
   border: 0 solid;
   float: left;
   width: 800px;
-  height: 600px;
+  height: 400px;
   background-image: url('players.png');
   background-size: cover;
   border-radius: 5px;
@@ -176,7 +176,7 @@ a {
   width: 40px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 780px) {
   #home {
     border: 1px solid;
     background-size: cover;
@@ -331,7 +331,7 @@ body {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 780px) {
   .menu-button-container {
     display: flex;
   }
