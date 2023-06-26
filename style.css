@@ -1,52 +1,129 @@
-/* #home {
+span {
+  margin: 0%;
+  font-size: large;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 800px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+#home {
   height: 970px;
   border: 0 solid;
-} */
-
-@media screen and (max-width: 768px) {
-  #home {
-    background-size: contain;
-    height: 293px;
-  }
+  background-image: url('estadio3.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
+  background-attachment: fixed;
+  text-align: center;
+  color: #ffffff;
 }
 
 #historia {
-  height: 100%;
+  height: 670px;
   border: 0 solid;
-  background-image: url('principal.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
   text-align: center;
-  color: #faf200;
+  color: black;
 }
 
-@media screen and (max-width: 768px) {
-  #historia {
-    /* background-size: contain; */
-    height: 293px;
-  }
+#div-historia1 {
+  border: 0 solid;
+  float: left;
+  width: 400px;
+  height: 600px;
+  margin: 50px 0 0 80px;
+  text-align: left;
+}
+
+#div-historia2 {
+  border: 0 solid;
+  float: left;
+  width: 1350px;
+  height: 600px;
+  background-image: url('players.png');
+  background-size: cover;
+  border-radius: 5px;
+  margin: 50px 0 0 50px;
+}
+
+#div-curiosidades1 {
+  border: 0 solid;
+  float: left;
+  width: 800px;
+  height: 1200px;
+  background-image: url('maradona.png');
+  background-size: cover;
+  border-radius: 5px;
+  margin: 50px 0 0 250px;
+}
+
+#div-curiosidades2 {
+  border: 0 solid;
+  float: left;
+  width: 400px;
+  height: 1600px;
+  margin: 50px 0 0 150px;
 }
 
 #recordes {
-  height: 100%;
+  border: 1px solid;
+  height: 970px;
   border: 0 solid;
-  background-image: url('players.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-  #recordes {
-    background-size: contain;
-    height: 350px;
-  }
+#div-recordes1 {
+  border: 0 solid;
+  float: left;
+  width: 450px;
+  height: 800px;
+  margin: 0 0 0 80px;
+}
+
+#div-recordes2 {
+  border: 0 solid;
+  float: left;
+  width: 1200px;
+  height: 800px;
+  background-image: url('taca-bola.png');
+  background-size: cover;
+  border-radius: 5px;
+  margin: 0 0 0 80px;
+}
+
+#div-penta {
+  padding: 15px;
+  text-align: left;
+  color: #020024;
+  border: 1px solid;
+  float: left;
+  height: 600px;
+  width: 400px;
+  margin: 100px 0 0 80px;
+  border-radius: 5px;
+  font-size: large;
+  backdrop-filter: blur(10px);
+  background-color: rgba(190, 244, 205, 0.3);
 }
 
 #curiosidades {
+  border: 1px solid;
+  height: 970px;
+  border: 0 solid;
   text-align: center;
+  margin-top: 50px;
 }
 
 #penta {
@@ -63,11 +140,35 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
-  #penta {
-    background-size: cover;
-    height: 293px;
-  }
+.heads {
+  text-align: center;
+}
+
+.class-curiosidades {
+  font-family: Arial;
+  font-weight: 900px;
+  text-align: left;
+  margin: 20px;
+}
+
+.class-recordes {
+  font-family: Arial;
+  font-weight: 900px;
+  text-align: left;
+  margin: 20px;
+}
+
+#h {
+  padding-top: 250px;
+  font-size: larger;
+}
+
+#video {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #00cba9;
 }
 
 #logo {
@@ -75,15 +176,35 @@
   width: 40px;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: 800px;
-  cursor: pointer;
-  color: black;
+@media screen and (max-width: 768px) {
+  #home {
+    background-size: cover;
+    height: 900px;
+  }
+  #historia {
+    background-size: cover;
+    height: 900px;
+  }
+  #recordes {
+    background-size: cover;
+    height: 900px;
+  }
+  #curiosidades {
+    background-size: cover;
+    height: 1600px;
+  }
+  #penta {
+    background-size: cover;
+    height: 900px;
+  }
+  .class-curiosidades {
+    margin: 3px;
+  }
+  #div-historia1 {
+    width: 320px;
+    height: 760px;
+    margin: 0 0 0 15px;
+  }
 }
 
 /* Menu Inicio */
@@ -112,12 +233,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    #020024 0%,
-    #00cba9 35%,
-    #00d4ff 100%
-  );
+  background: linear-gradient(90deg, #020024 0%, #00cba9 35%, #00d4ff 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
   height: 50px;
@@ -234,25 +350,7 @@ body {
     border-bottom: 1px solid #444;
   }
 }
-
 /* Menu Final */
-
-/* video */
-#video {
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-}
-
-#video video {
-  position: relative;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-}
-/* Final Video */
 
 /* Div para fixar menu no topo */
 #div-menu {
@@ -262,15 +360,4 @@ body {
   /* padding: 10px; */
   z-index: 9999;
 }
-/* Final div */
-
-span {
-  margin: 0%;
-  font-size: large;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
-li {
-  text-align: left;
-}
+/* Final div para fixar menu no topo*/
