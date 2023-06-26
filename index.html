@@ -1,119 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="copa-do-mundo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>World Cups</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="copa-do-mundo.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <title>World Cups</title>
-</head>
+  <!-- Cabeçalho e links -->
+  <body>
+    <div id="div-menu">
+      <!-- Menu -->
+      <section class="top-nav" id="menu">
+        <div>
+          <img src="copa-do-mundo.png" alt="" id="logo" />
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#historia">História</a></li>
+          <li><a href="#penta">Penta</a></li>
+          <li><a href="#curiosidades">Recordes</a></li>
+          <li><a href="#recordes">Curiosidades</a></li>
+          <li><a href="#galeria">Galeria de Fotos</a></li>
+        </ul>
+      </section>
+    </div>
 
-<!-- Cabeçalho e links -->
-
-<body>
-  <div id="div-menu">
-    <!-- Menu -->
-    <section class="top-nav" id="menu">
-      <div>
-        <img src="copa-do-mundo.png" alt="" id="logo" />
+    <!--Home-->
+    <div id="home">
+      <div id="div-texto-video">
+        <div id="h">
+          <h1>Wold Cups</h1>
+          <input type="submit" id="video" />
+        </div>
       </div>
-      <input id="menu-toggle" type="checkbox" />
-      <label class="menu-button-container" for="menu-toggle">
-        <div class="menu-button"></div>
-      </label>
-      <ul class="menu">
-        <li><a link="#home">Home</a></li>
-        <li><a link="historia">História</a></li>
-        <li><a link="recordes">Recordes</a></li>
-        <li><a link="galeria">Galeria de Fotos</a></li>
-        <li><a link="curiosidades">Curiosidades</a></li>
-      </ul>
-    </section>
-  </div>
-
-  <!--Home-->
-  <div id="home">
-    <video autoplay loop muted id="video">
-      <source src="video.mp4" type="video/mp4" />
-      Desculpe, seu navegador não suporta vídeos HTML5.
-    </video>
-  </div>
-
-  <!-- História -->
-  <div id="historia">
-    <h1>História</h1><br>
-    <span>A história da Copa do Mundo de futebol começa em 1928 quando o francês Jules Rimet assume o comando da
-      Federação Internacional de Futebol (FIFA) e começa a organizar a primeira competição de futebol mundial.
-
-      A estreia do evento aconteceu em 1930 no Uruguai e contou com a participação de 13 seleções convidadas.
-
-      De 1930 a 1970, o evento ficou conhecido como Taça Jules Rimet, em homenagem ao idealizador do campeonato.
-    </span>
-  </div>
-
-  <!-- Penta -->
-  <div id="penta">
-    <h1>O Penta</h1><br>
-    <span>Há exatos 20 anos, em Yokohama, no Japão, a seleção brasileira conquistou sua quinta taça da Copa do Mundo da
-      Fifa. Disputando sua terceira final seguida, o Brasil tornou-se a única seleção pentacampeã do mundo, vencendo a
-      Alemanha por 2 a 0 com dois gols históricos do artilheiro do torneio, Ronaldo Fenômeno.
-
-      Comandada por Luiz Felipe Scolari, o Felipão, o time se classificou para o Mundial do Japão e da Coreia do Sul
-      após uma campanha abaixo da expectativa nas eliminatórias sul-americanas, ficando apenas em terceiro lugar.
-    </span>
-  </div>
-
-  <!-- Recordes -->
-  <div id="recordes">
-    <h1>Recordes Marcantes</h1><br>
-    <span>
-      <ul>
-        <li>Seleção com mais títulos: 5 (1958, 1962, 1970, 1994 e 2002)</li>
-        <li>Mais participações: 22 (já incluindo a Copa do Catar)</li>
-        <li>Mais vitórias: 73</li>
-        <li>Jogador com mais títulos: Pelé, com 3 (1958, 1962 e 1970)</li>
-        <li>Jogador mais novo a marcar: Pelé, aos 17 anos e 239 dias (1958)</li>
-        <li>Jogador mais novo a marcar um hat-trick: Pelé, aos 17 anos e 244 dias (1958)</li>
-        <li>Mais títulos como jogador e técnico: Zagallo, com 3 (1958 e 1962 como jogador; 1970 como técnico)</li>
-      </ul>
-    </span>
-  </div>
-
-  <!-- Galeria de imagens -->
-  <div id="galeria">
-
-  </div>
-
-  <!-- Curiosidades -->
-  <div id="curiosidades">
-    <h1>Curiosidades</h1><br>
-    <span>
-      <ul>
-        <li>A primeira Copa do Mundo aconteceu em 1930</li>
-        <li>A primeira transmissão na TV em cores aconteceu em 1970</li>
-        <li> Em 2022, a maioria dos brasileiros acredita que o país será campeão</li>
-      </ul>
-    </span>
-  </div>
-
-  <!-- Rodapé -->
-  <footer>
-    <div id="footer-div">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
-        <path fill="#00cba9" fill-opacity="1"
-          d="M0,256L120,261.3C240,267,480,277,720,266.7C960,256,1200,224,1320,208L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-        </path>
-      </svg>
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
-                    <path fill="#00cba9" fill-opacity="1" d="M0,64L60,80C120,96,240,128,360,160C480,192,600,224,720,213.3C840,203,960,149,1080,122.7C1200,96,1320,96,1380,96L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
-                </svg>             -->
     </div>
-    </div>
-  </footer>
-</body>
 
+    <!-- História -->
+    <div id="historia">
+      <div id="div-historia1">
+        <h1 class="heads">História</h1>
+        <span>
+          A história da Copa do Mundo de futebol começa em 1928 quando o francês
+          Jules Rimet assume o comando da Federação Internacional de Futebol
+          (FIFA) e começa a organizar a primeira competição de futebol mundial.
+          A estreia do evento aconteceu em 1930 no Uruguai e contou com a
+          participação de 13 seleções convidadas. De 1930 a 1970, o evento ficou
+          conhecido como Taça Jules Rimet, em homenagem ao idealizador do
+          campeonato.<br />
+          Hoje a Copa conta com 32 seleções que começam o campeonato se
+          enfrentando em grupos de pontos corridos, onde cada vitória garante
+          três pontos, empate vale um ponto e derrota não pontua. Os dois
+          melhores times de cada grupo avançam para a próxima fase. Essa fase
+          são as eliminatórias e contam com Oitavas, Quartas, Semi e então a
+          grande Final, há também um jogo para decisão do 3º lugar<br />
+          Ao todo 8 pises ja tiveram a oportunidade de levantar a taça, sendo
+          eles: Brasil(5 vezes), Alemanha(4 vezes), Italia(4 vezes), Argentina(3
+          vezes), França(2 vezes), Uruguai(2 vezes), Inglaterra(1 vez) e
+          Espanha(1 vez)
+        </span>
+      </div>
+      <div id="div-historia2"><img src="" /></div>
+    </div>
+
+    <!-- Penta -->
+    <div id="penta">
+      <div id="div-penta">
+        <h1 class="heads">O Penta</h1>
+        <span>
+          E claro que não poderiamos deixar de falar de um dos momentos mais
+          iconicos da nossa seleção conquistando o tão sonha penta<br />
+          Há exatos 20 anos, em Yokohama, no Japão, a seleção brasileira
+          conquistou sua quinta taça da Copa do Mundo da Fifa. Disputando sua
+          terceira final seguida, o Brasil tornou-se a única seleção pentacampeã
+          do mundo, vencendo a Alemanha por 2 a 0 com dois gols históricos do
+          artilheiro do torneio, Ronaldo Fenômeno.<br />
+          Comandada por Luiz Felipe Scolari, o Felipão, o time se classificou
+          para o Mundial do Japão e da Coreia do Sul após uma campanha abaixo da
+          expectativa nas eliminatórias sul-americanas, ficando apenas em
+          terceiro lugar.<br />
+          Mas tinhamos uma seleção galactica com o lendário Fenomeno, o bruxo
+          Ronaldinho, a promessa Kaka, e canhão Roberto Carlos e nosso eterno
+          capita Cafu
+        </span>
+      </div>
+    </div>
+
+    <!-- Curiosidades -->
+    <div id="curiosidades">
+      <div id="div-curiosidades1"></div>
+      <div id="div-curiosidades2">
+        <h1 class="heads">Curiosidades</h1>
+        <span>
+          <ul>
+            <li class="class-curiosidades">
+              A primeira transmissão na TV em cores aconteceu em 1970
+            </li>
+            <li class="class-curiosidades">
+              Copa do Mundo sem bola: Durante a Segunda Guerra Mundial, as Copas
+              do Mundo de 1942 e 1946 foram canceladas devido ao conflito
+              global.
+            </li>
+            <li class="class-curiosidades">
+              Doping: A Copa do Mundo de 1994 foi marcada pelo primeiro caso de
+              doping durante o torneio. Diego Maradona, da Argentina, foi pego
+              em um exame de drogas e foi suspenso do torneio.
+            </li>
+            <li class="class-curiosidades">
+              Maior goleada: A maior goleada registrada em uma Copa do Mundo
+              aconteceu em 1982, quando a Hungria derrotou El Salvador por 10 a
+              1.
+            </li>
+            <li class="class-curiosidades">
+              Gol mais rápido: O gol mais rápido da história da Copa do Mundo
+              foi marcado por Hakan Şükür, da Turquia, contra a Coreia do Sul,
+              em 2002. Ele marcou o gol apenas 11 segundos após o início da
+              partida.
+            </li>
+            <li class="class-curiosidades">
+              Países anfitriões repetidos: Apenas 17 países já sediaram a Copa
+              do Mundo, sendo que alguns deles repetiram a experiência. O
+              México, por exemplo, sediou o torneio duas vezes (1970 e 1986),
+              assim como a Itália (1934 e 1990), a França (1938 e 1998) e o
+              Brasil (1950 e 2014).
+            </li>
+            <li class="class-curiosidades">
+              Um dos gols mais emblematicos da história das copas foi irregular
+              e conhecido popularmente como "La Mano de Dios", o gol foi marcado
+              nas quartas de final de copa de 1986 na cidade do México, o autor
+              do gol foi Maradona que ao tentar cabecear colocou a mão na bola
+              encobrindo o goleio, o jogo em questão e acabou em vitória
+              argentina por 2x1 sobre a Inglaterra e mais tarde trazendo o
+              titulo argentino. Esse gol é muito marcante pois foi considerado
+              uma "vingança divina" sobre a Inglaterra por causa do conflito
+              anos antes contra a Argentina pela soberania das Ilhas
+              Malvinas(1982)
+            </li>
+          </ul>
+        </span>
+      </div>
+    </div>
+
+    <!-- Recordes -->
+    <div id="recordes">
+      <div id="div-recordes1">
+        <h1 class="heads">Recordes Marcantes</h1>
+        <span>
+          <ul>
+            <li class="class-recordes">
+              Seleção com mais títulos: Brasil - 5 (1958, 1962, 1970, 1994 e
+              2002)
+            </li>
+            <li class="class-recordes">
+              Seleção com mais participações em copas: Brasil - 22 (já incluindo
+              a Copa do Catar)
+            </li>
+            <li class="class-recordes">
+              Seleção com mais vitórias: Brasil - 73
+            </li>
+            <li class="class-recordes">
+              Jogador com mais títulos: Pelé - 3 (1958, 1962 e 1970)
+            </li>
+            <li class="class-recordes">
+              Jogador mais novo a marcar: Pelé - 17 anos e 239 dias (1958)
+            </li>
+            <li class="class-recordes">
+              Jogador mais novo a marcar um hat-trick: Pelé - 17 anos e 244 dias
+              (1958)
+            </li>
+            <li class="class-recordes">
+              Mais títulos como jogador e técnico: Zagallo - 3 (1958 e 1962 como
+              jogador; 1970 como técnico)
+            </li>
+            <li class="class-recordes">
+              Maior artilheiro das copas: Klose - Alemanha(16 gols)
+            </li>
+            <li class="class-recordes">
+              Maior garçom(assistencias): Pelé - 10 assistencias em 4 copas
+            </li>
+            <li class="class-recordes">
+              Jogador com mais partidas disputadas: Lothar Matthäus - 25
+              partidas
+            </li>
+            <li class="class-recordes">
+              Goleiro com mais Clean Sheets(Jogos sem tomar gol): Fabien
+              Barthez(França) e Walter Zenga (Itália) - ambos com 10 Clean
+              Sheets
+            </li>
+          </ul>
+        </span>
+      </div>
+      <div id="div-recordes2"></div>
+    </div>
+
+    <!-- Galeria de imagens -->
+    <div id="galeria">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+      <div id="footer-div">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          id="wave"
+        >
+          <path
+            fill="#00cba9"
+            fill-opacity="1"
+            d="M0,256L120,261.3C240,267,480,277,720,266.7C960,256,1200,224,1320,208L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          >
+            <p>Luan Murilo de Mello</p>
+          </path>
+        </svg>
+      </div>
+    </footer>
+  </body>
 </html>
