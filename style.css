@@ -81,7 +81,7 @@ a {
 
 #recordes {
   border: 1px solid;
-  height: 970px;
+  height: 1700px;
   border: 0 solid;
   text-align: center;
 }
@@ -167,19 +167,44 @@ a {
 }
 
 #video {
+  color: black;
   font-size: larger;
   font-weight: 900;
   border: 0 solid;
-  width: 150px;
-  height: 80px;
-  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+  border-radius: 35px;
   cursor: pointer;
-  background-color: rgba(113, 224, 220, 0.3);
+  background-color: rgba(113, 224, 220, 0);
+  background-image: url('campo-de-futebol.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#img-video {
+  width: 250px;
+  height: 200px;
 }
 
 #logo {
   height: 45px;
   width: 40px;
+}
+
+#footer {
+  height: 110px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #020024 0%, #00cba9 35%, #00d4ff 100%);
+  float: inline-end;
+}
+
+#footer-div {
+  width: 200px;
+  /* border: 1px solid; */
+  text-align: center;
+  margin: 0 0 0 40%;
+  padding: 10px;
 }
 
 @media screen and (max-width: 780px) {
@@ -194,7 +219,7 @@ a {
   }
   #recordes {
     background-size: cover;
-    height: 900px;
+    height: 2000px;
   }
   #curiosidades {
     background-size: cover;
@@ -243,6 +268,9 @@ a {
     width: 300px;
     height: 1700px;
     margin: 0 0 0 25px;
+  }
+  #footer-div {
+    margin: 0 0 0 25%;
   }
 }
 
