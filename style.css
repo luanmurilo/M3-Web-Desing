@@ -54,6 +54,7 @@ a {
   height: 400px;
   background-image: url('players.png');
   background-size: cover;
+  background-position: center center;
   border-radius: 5px;
   margin: 50px 0 0 50px;
 }
@@ -65,6 +66,7 @@ a {
   height: 1200px;
   background-image: url('maradona.png');
   background-size: cover;
+  background-position: center center;
   border-radius: 5px;
   margin: 50px 0 0 250px;
 }
@@ -99,6 +101,7 @@ a {
   height: 800px;
   background-image: url('taca-bola.png');
   background-size: cover;
+  background-position: center center;
   border-radius: 5px;
   margin: 0 0 0 80px;
 }
@@ -236,6 +239,70 @@ a {
     /* border: 1px solid; */
     width: 300px;
     height: 1700px;
+    margin: 0 0 0 25px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  /* Divs Principais */
+  #home {
+    background-size: cover;
+    height: 900px;
+  }
+  #historia {
+    background-size: cover;
+    height: 800px;
+  }
+  #recordes {
+    background-size: cover;
+    height: 900px;
+  }
+  #curiosidades {
+    background-size: cover;
+    height: 1300px;
+  }
+  #penta {
+    background-size: cover;
+    height: 1000px;
+  }
+  /* Divs Internas */
+  #div-penta {
+    border: 1px solid;
+    width: 300px;
+    height: 750px;
+    margin: 150px 0 0 30px;
+  }
+  #div-historia1 {
+    /* border: 1px solid; */
+    width: 300px;
+    height: 800px;
+    margin: 0 0 0 30px;
+  }
+  #div-historia2 {
+    width: 600px;
+    height: 300px;
+    margin: 200px 0 0 20px;
+  }
+  #div-recordes1 {
+    /* border: 1px solid; */
+    width: 300px;
+    margin: 0 0 0 25px;
+    height: 1150px;
+  }
+  #div-recordes2 {
+    width: 600px;
+    height: 600px;
+    margin: 200px 0 0 20px;
+  }
+  #div-curiosidades1 {
+    width: 450px;
+    height: 1200px;
+    margin: 0 0 0 30px;
+  }
+  #div-curiosidades2 {
+    /* border: 1px solid; */
+    width: 400px;
+    height: 1200px;
     margin: 0 0 0 25px;
   }
 }
