@@ -207,27 +207,28 @@ a {
   }
   #div-historia1 {
     border: 1px solid;
-    width: 300px;
+    width: 200px;
     height: 600px;
-    margin: 0 0 0 30px;
+    margin: 0;
   }
   #div-historia2 {
     border: 1px solid;
-    width: 350px;
+    width: 200px;
     height: 200px;
   }
   #div-recordes2 {
     border: 1px solid;
-    width: 300px;
+    width: 200px;
     height: 250px;
     margin: 0;
   }
   #div-curiosidades1 {
-    width: 300px;
+    width: 200px;
     height: 250px;
-    margin: 0;margin: 0;
+    margin: 0;
   }
   #div-curiosidades2 {
+    width: 200px;
     margin: 0;
   }
 }
