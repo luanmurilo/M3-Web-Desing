@@ -177,66 +177,68 @@ a {
 }
 
 @media screen and (max-width: 780px) {
+  /* Divs Principais */
   #home {
-    /* border: 1px solid; */
     background-size: cover;
     height: 900px;
   }
   #historia {
-    /* border: 1px solid; */
     background-size: cover;
-    height: 1000px;
+    height: 1050px;
   }
   #recordes {
-    /* border: 1px solid; */
     background-size: cover;
     height: 900px;
   }
   #curiosidades {
-    /* border: 1px solid; */
     background-size: cover;
     height: 1600px;
   }
   #penta {
-    /* border: 1px solid; */
     background-size: cover;
-    height: 1500px;
+    height: 1000px;
   }
-  #div-penta{
-    width: 250px;
-    height: 700px;
-  }
-  .class-curiosidades {
-    margin: 0;
+  /* Divs Internas */
+  #div-penta {
+    border: 1px solid;
+    width: 300px;
+    height: 750px;
+    margin: 150px 0 0 30px;
   }
   #div-historia1 {
     /* border: 1px solid; */
-    width: 250px;
-    height: 600px;
-    margin: 0;
+    width: 300px;
+    height: 800px;
+    margin: 0 0 0 30px;
   }
   #div-historia2 {
-    /* border: 1px solid; */
-    width: 250px;
+    width: 350px;
     height: 200px;
+    margin: 0 0 0 10px;
+  }
+  #div-recordes1 {
+    /* border: 1px solid; */
+    width: 300px;
+    margin: 0 0 0 25px;
+    height: 1150px;
   }
   #div-recordes2 {
-    /* border: 1px solid; */
-    width: 250px;
-    height: 250px;
-    margin: 0;
+    width: 350px;
+    height: 200px;
+    margin: 0 0 0 10px;
   }
   #div-curiosidades1 {
-    width: 250px;
-    height: 250px;
-    margin: 0;
+    width: 300px;
+    height: 500px;
+    margin: 0 0 0 30px;
   }
   #div-curiosidades2 {
-    width: 250px;
-    margin: 0;
+    /* border: 1px solid; */
+    width: 300px;
+    height: 1700px;
+    margin: 0 0 0 25px;
   }
 }
-
 
 /* Menu Inicio */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
