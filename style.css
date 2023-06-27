@@ -175,7 +175,7 @@ a {
   height: 200px;
   border-radius: 35px;
   cursor: pointer;
-  background-color: rgba(113, 224, 220, 0);
+  background-color: rgba(0, 0, 0, 0);
   background-image: url('campo-de-futebol.png');
   background-size: cover;
   background-position: center center;
