@@ -178,57 +178,61 @@ a {
 
 @media screen and (max-width: 780px) {
   #home {
-    border: 1px solid;
+    /* border: 1px solid; */
     background-size: cover;
     height: 900px;
   }
   #historia {
-    border: 1px solid;
+    /* border: 1px solid; */
     background-size: cover;
     height: 1000px;
   }
   #recordes {
-    border: 1px solid;
+    /* border: 1px solid; */
     background-size: cover;
     height: 900px;
   }
   #curiosidades {
-    border: 1px solid;
+    /* border: 1px solid; */
     background-size: cover;
     height: 1600px;
   }
   #penta {
-    border: 1px solid;
+    /* border: 1px solid; */
     background-size: cover;
-    height: 900px;
+    height: 1500px;
+  }
+  #div-penta{
+    width: 250px;
+    height: 700px;
   }
   .class-curiosidades {
     margin: 0;
   }
   #div-historia1 {
-    border: 1px solid;
-    width: 200px;
+    /* border: 1px solid; */
+    width: 250px;
     height: 600px;
     margin: 0;
   }
   #div-historia2 {
-    border: 1px solid;
-    width: 200px;
+    /* border: 1px solid; */
+    width: 250px;
     height: 200px;
   }
   #div-recordes2 {
-    border: 1px solid;
-    width: 200px;
+    /* border: 1px solid; */
+    width: 250px;
     height: 250px;
     margin: 0;
   }
   #div-curiosidades1 {
-    width: 200px;
+    width: 250px;
     height: 250px;
     margin: 0;
   }
   #div-curiosidades2 {
-    width: 200px;
+    width: 250px;
     margin: 0;
   }
 }
