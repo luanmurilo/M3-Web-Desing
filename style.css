@@ -13,7 +13,7 @@ a {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 800px;
   cursor: pointer;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -167,11 +167,14 @@ a {
 }
 
 #video {
-  width: 80px;
-  height: 40px;
+  font-size: larger;
+  font-weight: 900;
+  border: 0 solid;
+  width: 150px;
+  height: 80px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #00cba9;
+  background-color: rgba(113, 224, 220, 0.3);
 }
 
 #logo {
@@ -243,9 +246,9 @@ a {
   }
 }
 
-@media screen and (max-width: 980px) {
-  /* Divs Principais */
-  #home {
+/* @media screen and (max-width: 980px) { */
+/* Divs Principais */
+/* #home {
     background-size: cover;
     height: 900px;
   }
@@ -266,15 +269,15 @@ a {
     height: 1000px;
   }
   /* Divs Internas */
-  #div-penta {
+/* #div-penta {
     border: 1px solid;
     width: 300px;
     height: 750px;
     margin: 150px 0 0 30px;
   }
-  #div-historia1 {
-    /* border: 1px solid; */
-    width: 300px;
+  #div-historia1 { */
+/* border: 1px solid; */
+/* width: 300px;
     height: 800px;
     margin: 0 0 0 30px;
   }
@@ -283,9 +286,9 @@ a {
     height: 300px;
     margin: 200px 0 0 20px;
   }
-  #div-recordes1 {
-    /* border: 1px solid; */
-    width: 300px;
+  #div-recordes1 { */
+/* border: 1px solid; */
+/* width: 300px;
     margin: 0 0 0 25px;
     height: 1150px;
   }
@@ -301,11 +304,11 @@ a {
   }
   #div-curiosidades2 {
     /* border: 1px solid; */
-    width: 400px;
+/* width: 400px;
     height: 1200px;
     margin: 0 0 0 25px;
   }
-}
+} */
 
 /* Menu Inicio */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
