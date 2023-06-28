@@ -19,6 +19,7 @@ a {
 
 #home {
   height: 970px;
+  width: 105%;
   border: 0 solid;
   background-image: url('estadio3.png');
   background-size: cover;
@@ -32,7 +33,7 @@ a {
 }
 
 #historia {
-  height: 670px;
+  height: 105%;
   border: 0 solid;
   text-align: center;
   color: black;
@@ -50,9 +51,9 @@ a {
 #div-historia2 {
   border: 0 solid;
   float: left;
-  width: 1200px;
+  width: 950px;
   height: 500px;
-  background-image: url('players.png');
+  background-image: url('copa-30.jpg');
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
@@ -62,7 +63,7 @@ a {
 #div-curiosidades1 {
   border: 0 solid;
   float: left;
-  width: 800px;
+  width: 500px;
   height: 1200px;
   background-image: url('maradona.png');
   background-size: cover;
@@ -97,7 +98,7 @@ a {
 #div-recordes2 {
   border: 0 solid;
   float: left;
-  width: 1200px;
+  width: 800px;
   height: 800px;
   background-image: url('taca-bola.png');
   background-size: cover;
@@ -196,7 +197,7 @@ a {
   height: 110px;
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, #020024 0%, #00cba9 35%, #00d4ff 100%);
-  float: inline-end;
+  /* float: inline-end; */
 }
 
 #footer-div {
@@ -492,3 +493,4 @@ body {
   z-index: 9999;
 }
 /* Final div para fixar menu no topo*/
+
